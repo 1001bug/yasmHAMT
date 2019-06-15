@@ -32,7 +32,7 @@ HashKey(const char *key)
     return vHash;
 }
 
-static unsigned long
+static unsigned long 
 ReHashKey(const char *key, int Level)
 {
     unsigned long a=31415, b=27183, vHash;
@@ -82,7 +82,7 @@ HAMT_create(int nocase, /*@exits@*/ void (*error_func)
     if (nocase) {
         hamt->HashKey = HashKey_nocase;
         hamt->ReHashKey = ReHashKey_nocase;
-        hamt->CmpKey = &strcasecmp;
+        //hamt->CmpKey = &strcasecmp;
     } else {
         hamt->HashKey = HashKey;
         hamt->ReHashKey = ReHashKey;

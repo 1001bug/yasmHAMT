@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
-#include <crtdefs.h>
+//#include <crtdefs.h>
 /*
 #define HAVE_STRINGS_H
 #define HAVE_LOCALE_H

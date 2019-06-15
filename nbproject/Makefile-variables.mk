@@ -7,13 +7,13 @@ CND_BASEDIR=`pwd`
 CND_BUILDDIR=build
 CND_DISTDIR=dist
 # Debug configuration
-CND_PLATFORM_Debug=MinGW_Clang-Windows
-CND_ARTIFACT_DIR_Debug=dist/Debug/MinGW_Clang-Windows
+CND_PLATFORM_Debug=GNU-Linux
+CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux
 CND_ARTIFACT_NAME_Debug=hamt.exe
-CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW_Clang-Windows/hamt.exe
-CND_PACKAGE_DIR_Debug=dist/Debug/MinGW_Clang-Windows/package
-CND_PACKAGE_NAME_Debug=hamt.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/MinGW_Clang-Windows/package/hamt.tar
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/hamt.exe
+CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux/package
+CND_PACKAGE_NAME_Debug=yasmhamt.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/yasmhamt.tar
 # Release configuration
 CND_PLATFORM_Release=MinGW_MSYS2-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/MinGW_MSYS2-Windows
